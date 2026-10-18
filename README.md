@@ -3,7 +3,7 @@
 Run the notebooks **in order**, top to bottom, each one completely before the next.
 Every notebook starts with "What this step does and why" and ends with "What to look for".
 
-| # | Notebook | Time on a laptop CPU | Writes |
+| # | Notebook | Time on a laptop CPU | Writes/Outputs |
 |---|---|---|---|
 | 00 | prepare_data | 2 min | `data/*_train/val/test.csv` |
 | 01 | stage0_diagnose | 20-60 min | `stage0_out/`, frozen risk strata |
@@ -25,7 +25,7 @@ No GPU is needed. Each long notebook has a `QUICK = True` switch for a fast tria
 | Taiwan Credit (UCI 350) | `taiwancredit_raw.csv` | downloaded by notebook 00 |
 
 Older files kept as fallbacks: `diabetes_130.csv` is used only if the raw Diabetes download
-fails (it has no patient IDs, so repeat patients cannot be removed). `german_credit.csv` and 'southgerman.asc' are the
+fails (it has no patient IDs, so repeat patients cannot be removed). `german_credit.csv` and `southgerman.asc` are the
 old / small versions and are **not used**.
 
 ## One-time setup (PowerShell, from the `safety_notebooks` folder)
