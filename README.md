@@ -14,7 +14,7 @@ Every notebook starts with "What this step does and why" and ends with "What to 
 | 05 | figures_tables | 1 min | `figures/` |
 
 No GPU is needed. Each long notebook has a `QUICK = True` switch for a fast trial run
-(fewer seeds or bootstraps). Never use QUICK results in the paper.
+(fewer seeds or bootstraps). Never use QUICK results to reproduce results from the paper.
 
 ## Datasets
 
