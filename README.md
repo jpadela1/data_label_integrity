@@ -22,11 +22,11 @@ No GPU is needed. Each long notebook has a `QUICK = True` switch for a fast tria
 |---|---|---|
 | Diabetes 130 (UCI 296) | `diabetic_data.csv` (raw, with patient IDs) | downloaded by notebook 00 |
 | CDC Diabetes Health Indicators (UCI 891) | `cdc_diabetes_raw.csv` | downloaded by notebook 00 with `ucimlrepo` |
-| South German Credit (UCI 573) | `SouthGermanCredit.asc` | downloaded by notebook 00 |
+| Taiwan Credit (UCI 350) | `taiwancredit_raw.csv` | downloaded by notebook 00 |
 
 Older files kept as fallbacks: `diabetes_130.csv` is used only if the raw Diabetes download
-fails (it has no patient IDs, so repeat patients cannot be removed). `german_credit.csv` is the
-old Statlog version and is **not used**.
+fails (it has no patient IDs, so repeat patients cannot be removed). `german_credit.csv` and 'southgerman.asc' are the
+old / small versions and are **not used**.
 
 ## One-time setup (PowerShell, from the `safety_notebooks` folder)
 
@@ -41,5 +41,4 @@ Choose the `.venv312` kernel when you open the notebooks.
 ## Files
 
 - `li_lib.py`: all shared functions, with the experiment grid (doses, mechanisms, seeds, review budget, audit sizes) at the top. Change settings there, not in the notebooks.
-- `stage0/stage0_diagnose.py`: your September Stage 0 script, copied unchanged from `Archive/stage0/`.
-- `pilot_standin_20261009/`: trial run on stand-in data. **Not for the paper.**
+- `stage0/stage0_diagnose.py`: old September Step 0 script, copied unchanged from `Archive/stage0/`.
