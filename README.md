@@ -67,7 +67,7 @@ No GPU is needed. Each long notebook has a `QUICK = True` switch for a fast tria
 |---|---|---|
 | Diabetes 130 (UCI 296) | `diabetic_data.csv` (raw, with patient IDs) | downloaded by notebook 00 |
 | CDC Diabetes Health Indicators (UCI 891) | `cdc_diabetes_raw.csv` | downloaded by notebook 00 with `ucimlrepo` |
-| NHANES | `nhanes*.csv` | downloaded by notebook  |
+| NHANES | `nhanes*.csv` | downloaded by notebook 07 |
 
 Older files kept as fallbacks: `diabetes_130.csv` is used only if the raw Diabetes download
 fails (it has no patient IDs, so repeat patients cannot be removed). `german_credit.csv` is the
