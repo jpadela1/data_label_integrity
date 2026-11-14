@@ -1,0 +1,23 @@
+method,group,query,why,share_train,pos_rate_train
+causal (proposed),Sex == 1,`Sex` == 1.0,protected; edge to label,0.49531495423278993,0.13548387096774195
+causal (proposed),Age <= 32,`Age` <= 32.0,protected; edge to recording; edge to label,0.20749607322753616,0.012790394152962672
+causal (proposed),Age >= 67,`Age` >= 67.0,protected; edge to recording; edge to label,0.20392135622596544,0.2451527224435591
+causal (proposed),race_black == 1,`race_black` == 1.0,protected; edge to label,0.2095542436223799,0.15843887309382268
+causal (proposed),race_hispanic == 1,`race_hispanic` == 1.0,protected; edge to recording; edge to label,0.23988517575691926,0.1460826371641454
+causal (proposed),CholCheck == 0,`CholCheck` == 0.0,recording variable,0.28294426691220276,0.03828483920367534
+causal (proposed),AnyHealthcare == 0,`AnyHealthcare` == 0.0,edge to recording,0.20695444943941937,0.07825176655325831
+causal (proposed),BMI <= 23.56,`BMI` <= 23.56,edge to recording; edge to label,0.20012998970914803,0.05115020297699594
+causal (proposed),BMI >= 34,`BMI` >= 34.0,edge to recording; edge to label,0.20148404917943996,0.22258064516129034
+causal (proposed),Education <= 2,`Education` <= 2.0,edge to recording; edge to label,0.23441477549693981,0.18622920517560074
+causal (proposed),Education >= 5,`Education` >= 5.0,edge to recording; edge to label,0.238585278665439,0.08422247446083996
+causal (proposed),HighBP == 1,`HighBP` == 1.0,edge to recording; edge to label,0.363158749932297,0.2471290082028337
+causal (proposed),HighChol == 1,`HighChol` == 1.0,edge to recording; edge to label,0.34311866977197636,0.23330702446724547
+causal (proposed),Income <= 0.97,`Income` <= 0.97,edge to recording,0.20105075014894655,0.1476293103448276
+causal (proposed),Income >= 4.8,`Income` >= 4.8,edge to recording,0.2001841520879597,0.0928030303030303
+causal (proposed),RoutineCare == 0,`RoutineCare` == 0.0,edge to recording,0.15447110437090397,0.03611500701262272
+causal (proposed),Smoker == 1,`Smoker` == 1.0,edge to recording,0.44786871039376047,0.1430644576127706
+causal (proposed),VisitedDoctor == 0,`VisitedDoctor` == 0.0,edge to recording; edge to label,0.1656827167849212,0.022556390977443608
+causal (proposed),GenHlth <= 2,`GenHlth` <= 2.0,edge to label,0.398418458538699,0.04404567699836868
+causal (proposed),GenHlth >= 4,`GenHlth` >= 4.0,edge to label,0.23712289443752368,0.2702147099132024
+causal (proposed),HeartDiseaseorAttack == 1,`HeartDiseaseorAttack` == 1.0,edge to label,0.06412825651302605,0.3564189189189189
+causal (proposed),Stroke == 1,`Stroke` == 1.0,edge to label,0.03666793045550561,0.32791728212703103

@@ -1,0 +1,7 @@
+dataset,algorithm,linked_to_label,linked_to_recording,n_stable_edges
+nhanes,DirectLiNGAM,"Age, BMI, CholCheck, Education, GenHlth, HeartDiseaseorAttack, HighBP, HighChol, Sex, Stroke, VisitedDoctor, race_black, race_hispanic","Age, AnyHealthcare, BMI, Education, HighBP, HighChol, Income, RoutineCare, Smoker, VisitedDoctor, race_hispanic",102
+nhanes,PC-G2,"Age, BMI, GenHlth, HighBP, HighChol","Age, AnyHealthcare, HighChol, Income, RoutineCare, VisitedDoctor",47
+nhanes,LiM,"AnyHealthcare, RoutineCare, VisitedDoctor","AnyHealthcare, RoutineCare, VisitedDoctor",33
+cdc,DirectLiNGAM,"Age, BMI, CholCheck, DiffWalk, GenHlth, HeartDiseaseorAttack, HighBP, HighChol, HvyAlcoholConsump, Income, Sex","Age, AnyHealthcare, BMI, HeartDiseaseorAttack, HighBP, HighChol, Income, PhysHlth",147
+cdc,PC-G2,"BMI, GenHlth, HighBP, HighChol",,43
+cdc,LiM,"AnyHealthcare, CholCheck","Age, AnyHealthcare, DiffWalk, Education, Fruits, HeartDiseaseorAttack, HvyAlcoholConsump, NoDocbcCost, PhysActivity, Stroke, Veggies",39

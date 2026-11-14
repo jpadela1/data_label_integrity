@@ -1,0 +1,12 @@
+{
+  "rung": "BOUNDED",
+  "reasons": [
+    "discrete-heavy: 68% of variables binary (linear-continuous SEM misspecified)"
+  ],
+  "warnings": [
+    "binary protected attribute(s) Sex: data-driven orientation unreliable; orientation fixed by declared exogeneity"
+  ],
+  "n_train": 152208,
+  "boot": 50,
+  "max_n": 20000
+}

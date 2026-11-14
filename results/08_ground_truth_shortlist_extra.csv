@@ -1,0 +1,6 @@
+list,m,groups,true_cases_per_group,missed_ratio_per_group,truly_elevated,mean_missed_ratio,adults_in_list,missed_cases_in_list,share_of_all_missed,missed_per_100_recorded_no,ratio_ci,causal_minus_this_ratio_ci,share_boot_causal_higher
+causal (proposed): O/E flags,3,CholCheck == 0; RoutineCare == 0; Smoker == 1,216; 138; 997,2.36; 2.28; 0.86,2,1.8335475555568086,7930,256,0.6052009456264775,3.631205673758865,1.59-2.10,,
+clustering (top m),3,cluster 2; cluster 4; cluster 9,56; 56; 22,0.84; 2.28; 2.85,2,1.9902938449124552,2456,49,0.11583924349881797,2.066638549135386,1.60-2.44,-0.55 to 0.20,0.208
+protected only (all its groups),5,Sex == 1; Age <= 32; Age >= 67; race_black == 1; race_hispanic == 1,1025; 62; 709; 555; 564,0.94; 1.07; 0.81; 1.08; 1.17,0,1.0141052445680017,10386,382,0.9030732860520094,4.255793226381462,0.91-1.13,0.57 to 1.10,1.0
+ablation: declared variable only,1,CholCheck == 0,216,2.36,1,2.3624338624338623,3514,94,0.2222222222222222,2.7712264150943398,1.96-2.80,-0.81 to -0.27,0.0
+ablation: O/E without the graph rule,7,CholCheck == 0; RoutineCare == 0; Smoker == 1; Age <= 32; VisitedDoctor == 0; GenHlth <= 2; BMI <= 23.56,216; 138; 997; 62; 142; 338; 154,2.36; 2.28; 0.86; 1.07; 3.20; 1.65; 0.79,4,1.7430569981007638,10459,315,0.7446808510638298,3.3514203638684967,1.55-1.95,-0.06 to 0.26,0.868

@@ -1,0 +1,9 @@
+method,K,elevated,precision,recall_of_answer_key
+causal (proposed),22.0,5.0,0.22727272727272727,1.0
+protected only,5.0,0.0,0.0,0.0
+slice search,22.0,11.0,0.5,1.0
+clustering,18.0,5.0,0.2777777777777778,1.0
+confident learning,21.0,5.0,0.23809523809523808,1.0
+KNN disagreement,21.0,5.0,0.23809523809523808,1.0
+anomaly detection,21.0,5.0,0.23809523809523808,1.0
+random (mean of 20),20.65,5.0,0.24226190476190473,1.0

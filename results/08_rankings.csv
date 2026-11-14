@@ -1,0 +1,274 @@
+method,rank,group
+protected only,1,Sex == 1
+protected only,2,Age <= 32
+protected only,3,Age >= 67
+protected only,4,race_black == 1
+protected only,5,race_hispanic == 1
+slice search,1,GenHlth <= 2
+slice search,2,Age <= 32
+slice search,3,GenHlth <= 2 & Income >= 4.8
+slice search,4,AnyHealthcare == 0 & VisitedDoctor == 0
+slice search,5,CholCheck == 0 & RoutineCare == 0
+slice search,6,BMI <= 23.56 & Education >= 5
+slice search,7,VisitedDoctor == 0 & GenHlth >= 4
+slice search,8,VisitedDoctor == 0 & Smoker == 1
+slice search,9,BMI <= 23.56 & GenHlth <= 2
+slice search,10,CholCheck == 0 & VisitedDoctor == 0
+slice search,11,VisitedDoctor == 0 & race_hispanic == 1
+slice search,12,RoutineCare == 0 & VisitedDoctor == 0
+slice search,13,CholCheck == 0 & BMI <= 23.56
+slice search,14,CholCheck == 0 & GenHlth <= 2
+slice search,15,Sex == 1 & Age <= 32
+slice search,16,BMI <= 23.56 & Income >= 4.8
+slice search,17,AnyHealthcare == 0 & BMI <= 23.56
+slice search,18,BMI >= 34 & Age <= 32
+slice search,19,Smoker == 1 & Age <= 32
+slice search,20,CholCheck == 0 & Age <= 32
+slice search,21,AnyHealthcare == 0 & Age <= 32
+slice search,22,GenHlth <= 2 & Age <= 32
+slice search,23,Age <= 32 & Income <= 0.97
+slice search,24,Age <= 32 & race_black == 1
+slice search,25,Age <= 32 & race_hispanic == 1
+slice search,26,CholCheck == 0 & Income >= 4.8
+slice search,27,RoutineCare == 0 & BMI <= 23.56
+slice search,28,RoutineCare == 0 & GenHlth <= 2
+slice search,29,RoutineCare == 0 & Age <= 32
+slice search,30,VisitedDoctor == 0 & Age <= 32
+slice search,31,Age <= 32 & Education <= 2
+slice search,32,Age <= 32 & Education >= 5
+slice search,33,VisitedDoctor == 0 & BMI <= 23.56
+slice search,34,BMI <= 23.56 & Age <= 32
+slice search,35,VisitedDoctor == 0
+slice search,36,GenHlth <= 2 & Education >= 5
+slice search,37,GenHlth <= 2 & Sex == 1
+slice search,38,HighBP == 1 & GenHlth <= 2
+slice search,39,Smoker == 1 & GenHlth <= 2
+slice search,40,HighChol == 1 & GenHlth <= 2
+slice search,41,VisitedDoctor == 0 & Sex == 1
+slice search,42,GenHlth <= 2 & Age >= 67
+slice search,43,CholCheck == 0 & Smoker == 1
+slice search,44,GenHlth <= 2 & race_hispanic == 1
+slice search,45,VisitedDoctor == 0 & Education <= 2
+slice search,46,GenHlth <= 2 & race_black == 1
+slice search,47,BMI <= 23.56
+slice search,48,VisitedDoctor == 0 & Income <= 0.97
+slice search,49,CholCheck == 0
+slice search,50,CholCheck == 0 & Sex == 1
+slice search,51,CholCheck == 0 & Education >= 5
+slice search,52,VisitedDoctor == 0 & race_black == 1
+slice search,53,CholCheck == 0 & AnyHealthcare == 0
+slice search,54,BMI <= 23.56 & Age >= 67
+slice search,55,CholCheck == 0 & race_black == 1
+slice search,56,BMI <= 23.56 & Sex == 1
+slice search,57,CholCheck == 0 & Income <= 0.97
+slice search,58,GenHlth <= 2 & Education <= 2
+slice search,59,AnyHealthcare == 0 & GenHlth <= 2
+slice search,60,BMI <= 23.56 & race_hispanic == 1
+slice search,61,BMI >= 34 & GenHlth <= 2
+slice search,62,BMI <= 23.56 & Income <= 0.97
+slice search,63,VisitedDoctor == 0 & GenHlth <= 2
+slice search,64,HighBP == 1 & BMI <= 23.56
+slice search,65,RoutineCare == 0 & Smoker == 1
+slice search,66,BMI <= 23.56 & Smoker == 1
+slice search,67,CholCheck == 0 & Education <= 2
+slice search,68,CholCheck == 0 & race_hispanic == 1
+slice search,69,AnyHealthcare == 0 & RoutineCare == 0
+slice search,70,GenHlth <= 2 & Income <= 0.97
+slice search,71,CholCheck == 0 & GenHlth >= 4
+slice search,72,HighChol == 1 & BMI <= 23.56
+slice search,73,BMI <= 23.56 & race_black == 1
+slice search,74,HighBP == 1 & CholCheck == 0
+slice search,75,CholCheck == 0 & BMI >= 34
+slice search,76,RoutineCare == 0
+slice search,77,RoutineCare == 0 & Sex == 1
+slice search,78,BMI <= 23.56 & Education <= 2
+slice search,79,BMI <= 23.56 & GenHlth >= 4
+slice search,80,Education >= 5 & Income >= 4.8
+slice search,81,RoutineCare == 0 & Income <= 0.97
+slice search,82,RoutineCare == 0 & GenHlth >= 4
+slice search,83,RoutineCare == 0 & race_hispanic == 1
+slice search,84,Income >= 4.8
+slice search,85,RoutineCare == 0 & Education <= 2
+slice search,86,Smoker == 1 & Education >= 5
+slice search,87,Education >= 5
+slice search,88,AnyHealthcare == 0 & Smoker == 1
+slice search,89,Smoker == 1 & Income >= 4.8
+slice search,90,Sex == 1 & Income >= 4.8
+slice search,91,Income >= 4.8 & race_black == 1
+slice search,92,AnyHealthcare == 0 & race_black == 1
+slice search,93,AnyHealthcare == 0
+slice search,94,Age >= 67 & Income >= 4.8
+slice search,95,Sex == 1 & Education >= 5
+slice search,96,AnyHealthcare == 0 & Sex == 1
+slice search,97,AnyHealthcare == 0 & Income <= 0.97
+slice search,98,HighChol == 1 & Income >= 4.8
+slice search,99,HighBP == 1 & Income >= 4.8
+slice search,100,AnyHealthcare == 0 & race_hispanic == 1
+slice search,101,HighChol == 1 & Education >= 5
+slice search,102,Age >= 67 & Education >= 5
+slice search,103,Education >= 5 & race_black == 1
+slice search,104,HighBP == 1 & Education >= 5
+slice search,105,AnyHealthcare == 0 & BMI >= 34
+slice search,106,AnyHealthcare == 0 & Education <= 2
+slice search,107,AnyHealthcare == 0 & GenHlth >= 4
+slice search,108,Smoker == 1
+slice search,109,Sex == 1
+slice search,110,Smoker == 1 & Sex == 1
+slice search,111,HighChol == 1 & AnyHealthcare == 0
+slice search,112,Smoker == 1 & Income <= 0.97
+slice search,113,HighBP == 1 & AnyHealthcare == 0
+slice search,114,Income <= 0.97 & race_black == 1
+slice search,115,BMI >= 34 & Education >= 5
+slice search,116,BMI >= 34 & Income >= 4.8
+slice search,117,race_black == 1
+slice search,118,Sex == 1 & race_black == 1
+slice search,119,Sex == 1 & Age >= 67
+slice search,120,Smoker == 1 & Age >= 67
+slice search,121,Sex == 1 & Income <= 0.97
+slice search,122,Income <= 0.97
+slice search,123,Smoker == 1 & race_black == 1
+slice search,124,Smoker == 1 & race_hispanic == 1
+slice search,125,Age >= 67
+slice search,126,race_hispanic == 1
+slice search,127,Sex == 1 & race_hispanic == 1
+slice search,128,Smoker == 1 & Education <= 2
+slice search,129,Income <= 0.97 & race_hispanic == 1
+slice search,130,Sex == 1 & Education <= 2
+slice search,131,Education <= 2 & Income <= 0.97
+slice search,132,Education <= 2
+slice search,133,Age >= 67 & Income <= 0.97
+slice search,134,Education <= 2 & race_hispanic == 1
+slice search,135,HighChol == 1 & Smoker == 1
+slice search,136,HighChol == 1 & Sex == 1
+slice search,137,Age >= 67 & Education <= 2
+slice search,138,Education <= 2 & race_black == 1
+slice search,139,HighBP == 1 & Smoker == 1
+slice search,140,Age >= 67 & race_hispanic == 1
+slice search,141,HighBP == 1 & race_black == 1
+slice search,142,HighBP == 1 & Age >= 67
+slice search,143,HighBP == 1 & Sex == 1
+slice search,144,HighChol == 1 & Age >= 67
+slice search,145,BMI >= 34 & race_black == 1
+slice search,146,HighBP == 1 & Income <= 0.97
+slice search,147,GenHlth >= 4 & Income <= 0.97
+slice search,148,BMI >= 34 & Income <= 0.97
+slice search,149,BMI >= 34 & Smoker == 1
+slice search,150,Age >= 67 & race_black == 1
+slice search,151,HighChol == 1 & Income <= 0.97
+slice search,152,HighChol == 1 & race_black == 1
+slice search,153,HeartDiseaseorAttack == 1 & Age >= 67
+slice search,154,BMI >= 34 & race_hispanic == 1
+slice search,155,BMI >= 34 & Sex == 1
+slice search,156,HighChol == 1 & race_hispanic == 1
+slice search,157,Smoker == 1 & HeartDiseaseorAttack == 1
+slice search,158,Stroke == 1
+slice search,159,HighBP == 1 & race_hispanic == 1
+slice search,160,GenHlth >= 4 & race_hispanic == 1
+slice search,161,Smoker == 1 & GenHlth >= 4
+slice search,162,HighBP == 1 & Education <= 2
+slice search,163,BMI >= 34
+slice search,164,GenHlth >= 4 & race_black == 1
+slice search,165,HighChol == 1
+slice search,166,HeartDiseaseorAttack == 1 & Sex == 1
+slice search,167,GenHlth >= 4 & Sex == 1
+slice search,168,HeartDiseaseorAttack == 1
+slice search,169,GenHlth >= 4 & Education <= 2
+slice search,170,BMI >= 34 & Education <= 2
+slice search,171,HighChol == 1 & Education <= 2
+slice search,172,HighChol == 1 & HeartDiseaseorAttack == 1
+slice search,173,HighBP == 1 & BMI >= 34
+slice search,174,HighBP == 1 & HeartDiseaseorAttack == 1
+slice search,175,HighBP == 1
+slice search,176,BMI >= 34 & Age >= 67
+slice search,177,GenHlth >= 4 & Age >= 67
+slice search,178,HighBP == 1 & HighChol == 1
+slice search,179,HighChol == 1 & BMI >= 34
+slice search,180,BMI >= 34 & GenHlth >= 4
+slice search,181,GenHlth >= 4
+slice search,182,HeartDiseaseorAttack == 1 & GenHlth >= 4
+slice search,183,HighChol == 1 & GenHlth >= 4
+slice search,184,HighBP == 1 & GenHlth >= 4
+clustering,1,cluster 2
+clustering,2,cluster 4
+clustering,3,cluster 9
+clustering,4,cluster 18
+clustering,5,cluster 19
+clustering,6,cluster 0
+clustering,7,cluster 17
+clustering,8,cluster 16
+clustering,9,cluster 13
+clustering,10,cluster 5
+clustering,11,cluster 6
+clustering,12,cluster 14
+clustering,13,cluster 12
+clustering,14,cluster 3
+clustering,15,cluster 7
+clustering,16,cluster 15
+clustering,17,cluster 1
+clustering,18,cluster 11
+confident learning,1,HeartDiseaseorAttack == 1
+confident learning,2,Stroke == 1
+confident learning,3,GenHlth >= 4
+confident learning,4,BMI >= 34
+confident learning,5,HighBP == 1
+confident learning,6,HighChol == 1
+confident learning,7,Age >= 67
+confident learning,8,Education <= 2
+confident learning,9,Income <= 0.97
+confident learning,10,race_black == 1
+confident learning,11,race_hispanic == 1
+confident learning,12,Smoker == 1
+confident learning,13,Sex == 1
+confident learning,14,Income >= 4.8
+confident learning,15,Education >= 5
+confident learning,16,AnyHealthcare == 0
+confident learning,17,GenHlth <= 2
+confident learning,18,BMI <= 23.56
+confident learning,19,CholCheck == 0
+confident learning,20,RoutineCare == 0
+confident learning,21,VisitedDoctor == 0
+confident learning,22,Age <= 32
+KNN disagreement,1,HeartDiseaseorAttack == 1
+KNN disagreement,2,Stroke == 1
+KNN disagreement,3,GenHlth >= 4
+KNN disagreement,4,HighBP == 1
+KNN disagreement,5,Age >= 67
+KNN disagreement,6,HighChol == 1
+KNN disagreement,7,BMI >= 34
+KNN disagreement,8,Education <= 2
+KNN disagreement,9,race_black == 1
+KNN disagreement,10,Income <= 0.97
+KNN disagreement,11,race_hispanic == 1
+KNN disagreement,12,Smoker == 1
+KNN disagreement,13,Sex == 1
+KNN disagreement,14,Income >= 4.8
+KNN disagreement,15,Education >= 5
+KNN disagreement,16,AnyHealthcare == 0
+KNN disagreement,17,BMI <= 23.56
+KNN disagreement,18,GenHlth <= 2
+KNN disagreement,19,CholCheck == 0
+KNN disagreement,20,RoutineCare == 0
+KNN disagreement,21,VisitedDoctor == 0
+KNN disagreement,22,Age <= 32
+anomaly detection,1,Stroke == 1
+anomaly detection,2,HeartDiseaseorAttack == 1
+anomaly detection,3,RoutineCare == 0
+anomaly detection,4,AnyHealthcare == 0
+anomaly detection,5,VisitedDoctor == 0
+anomaly detection,6,GenHlth >= 4
+anomaly detection,7,Income <= 0.97
+anomaly detection,8,Education <= 2
+anomaly detection,9,race_black == 1
+anomaly detection,10,HighBP == 1
+anomaly detection,11,CholCheck == 0
+anomaly detection,12,BMI >= 34
+anomaly detection,13,race_hispanic == 1
+anomaly detection,14,Smoker == 1
+anomaly detection,15,HighChol == 1
+anomaly detection,16,Sex == 1
+anomaly detection,17,Age >= 67
+anomaly detection,18,Age <= 32
+anomaly detection,19,BMI <= 23.56
+anomaly detection,20,GenHlth <= 2
+anomaly detection,21,Education >= 5
+anomaly detection,22,Income >= 4.8

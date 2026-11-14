@@ -1,0 +1,89 @@
+dataset,algorithm,group,query,why,valid,obs_over_exp,ci_low,ci_high,flagged
+nhanes,DirectLiNGAM,Sex == 1,`Sex` == 1.0,protected; edge to label,False,,,,False
+nhanes,DirectLiNGAM,Age <= 32,`Age` <= 32.0,protected; edge to recording; edge to label,False,,,,False
+nhanes,DirectLiNGAM,Age >= 67,`Age` >= 67.0,protected; edge to recording; edge to label,False,,,,False
+nhanes,DirectLiNGAM,race_black == 1,`race_black` == 1.0,protected; edge to label,False,,,,False
+nhanes,DirectLiNGAM,race_hispanic == 1,`race_hispanic` == 1.0,protected; edge to recording; edge to label,False,,,,False
+nhanes,DirectLiNGAM,CholCheck == 0,`CholCheck` == 0.0,recording variable,True,0.7263444842994061,0.6291627979541852,0.834286471525144,True
+nhanes,DirectLiNGAM,AnyHealthcare == 0,`AnyHealthcare` == 0.0,edge to recording,True,1.1053100647687741,0.9835629984985977,1.2379641889907163,False
+nhanes,DirectLiNGAM,BMI <= 23.56,`BMI` <= 23.56,edge to recording; edge to label,False,,,,False
+nhanes,DirectLiNGAM,BMI >= 34,`BMI` >= 34.0,edge to recording; edge to label,False,,,,False
+nhanes,DirectLiNGAM,Education <= 2,`Education` <= 2.0,edge to recording; edge to label,False,,,,False
+nhanes,DirectLiNGAM,Education >= 5,`Education` >= 5.0,edge to recording; edge to label,False,,,,False
+nhanes,DirectLiNGAM,HighBP == 1,`HighBP` == 1.0,edge to recording; edge to label,False,,,,False
+nhanes,DirectLiNGAM,HighChol == 1,`HighChol` == 1.0,edge to recording; edge to label,False,,,,False
+nhanes,DirectLiNGAM,Income <= 0.97,`Income` <= 0.97,edge to recording,True,1.008152414351591,0.9255000894936747,1.0962059116621992,False
+nhanes,DirectLiNGAM,Income >= 4.8,`Income` >= 4.8,edge to recording,True,0.9411178373410485,0.8441448162845188,1.0461762349238124,False
+nhanes,DirectLiNGAM,RoutineCare == 0,`RoutineCare` == 0.0,edge to recording,True,0.739204524361733,0.603362691226703,0.896500468332045,True
+nhanes,DirectLiNGAM,Smoker == 1,`Smoker` == 1.0,edge to recording,True,0.8748421812630229,0.8256939390911539,0.9261517783846512,True
+nhanes,DirectLiNGAM,VisitedDoctor == 0,`VisitedDoctor` == 0.0,edge to recording; edge to label,False,,,,False
+nhanes,DirectLiNGAM,GenHlth <= 2,`GenHlth` <= 2.0,edge to label,False,,,,False
+nhanes,DirectLiNGAM,GenHlth >= 4,`GenHlth` >= 4.0,edge to label,False,,,,False
+nhanes,DirectLiNGAM,HeartDiseaseorAttack == 1,`HeartDiseaseorAttack` == 1.0,edge to label,False,,,,False
+nhanes,DirectLiNGAM,Stroke == 1,`Stroke` == 1.0,edge to label,False,,,,False
+nhanes,PC-G2,Sex == 1,`Sex` == 1.0,protected,False,,,,False
+nhanes,PC-G2,Age <= 32,`Age` <= 32.0,protected; edge to recording; edge to label,False,,,,False
+nhanes,PC-G2,Age >= 67,`Age` >= 67.0,protected; edge to recording; edge to label,False,,,,False
+nhanes,PC-G2,race_black == 1,`race_black` == 1.0,protected,False,,,,False
+nhanes,PC-G2,race_hispanic == 1,`race_hispanic` == 1.0,protected,False,,,,False
+nhanes,PC-G2,CholCheck == 0,`CholCheck` == 0.0,recording variable,True,0.7263444842994061,0.6291627979541852,0.834286471525144,True
+nhanes,PC-G2,AnyHealthcare == 0,`AnyHealthcare` == 0.0,edge to recording,True,1.1053100647687741,0.9835629984985977,1.2379641889907163,False
+nhanes,PC-G2,HighChol == 1,`HighChol` == 1.0,edge to recording; edge to label,False,,,,False
+nhanes,PC-G2,Income <= 0.97,`Income` <= 0.97,edge to recording,True,1.008152414351591,0.9255000894936747,1.0962059116621992,False
+nhanes,PC-G2,Income >= 4.8,`Income` >= 4.8,edge to recording,True,0.9411178373410485,0.8441448162845188,1.0461762349238124,False
+nhanes,PC-G2,RoutineCare == 0,`RoutineCare` == 0.0,edge to recording,True,0.739204524361733,0.603362691226703,0.896500468332045,True
+nhanes,PC-G2,VisitedDoctor == 0,`VisitedDoctor` == 0.0,edge to recording,True,0.3650526042502542,0.2840327158154218,0.4619974345482169,True
+nhanes,PC-G2,BMI <= 23.56,`BMI` <= 23.56,edge to label,False,,,,False
+nhanes,PC-G2,BMI >= 34,`BMI` >= 34.0,edge to label,False,,,,False
+nhanes,PC-G2,GenHlth <= 2,`GenHlth` <= 2.0,edge to label,False,,,,False
+nhanes,PC-G2,GenHlth >= 4,`GenHlth` >= 4.0,edge to label,False,,,,False
+nhanes,PC-G2,HighBP == 1,`HighBP` == 1.0,edge to label,False,,,,False
+nhanes,LiM,Sex == 1,`Sex` == 1.0,protected,False,,,,False
+nhanes,LiM,Age <= 32,`Age` <= 32.0,protected,False,,,,False
+nhanes,LiM,Age >= 67,`Age` >= 67.0,protected,False,,,,False
+nhanes,LiM,race_black == 1,`race_black` == 1.0,protected,False,,,,False
+nhanes,LiM,race_hispanic == 1,`race_hispanic` == 1.0,protected,False,,,,False
+nhanes,LiM,CholCheck == 0,`CholCheck` == 0.0,recording variable,True,0.7263444842994061,0.6291627979541852,0.834286471525144,True
+nhanes,LiM,AnyHealthcare == 0,`AnyHealthcare` == 0.0,edge to recording; edge to label,False,,,,False
+nhanes,LiM,RoutineCare == 0,`RoutineCare` == 0.0,edge to recording; edge to label,False,,,,False
+nhanes,LiM,VisitedDoctor == 0,`VisitedDoctor` == 0.0,edge to recording; edge to label,False,,,,False
+cdc,DirectLiNGAM,Sex == 1,`Sex` == 1,protected; edge to label,False,,,,False
+cdc,DirectLiNGAM,Age <= 5,`Age` <= 5.0,protected; edge to recording; edge to label,False,,,,False
+cdc,DirectLiNGAM,Age >= 11,`Age` >= 11.0,protected; edge to recording; edge to label,False,,,,False
+cdc,DirectLiNGAM,CholCheck == 0,`CholCheck` == 0,recording variable,True,0.3874983838466657,0.3279687154907266,0.45470911594590985,True
+cdc,DirectLiNGAM,AnyHealthcare == 0,`AnyHealthcare` == 0,edge to recording,True,0.9049413955849853,0.8460985759191513,0.9667978027285701,True
+cdc,DirectLiNGAM,BMI <= 23,`BMI` <= 23.0,edge to recording; edge to label,False,,,,False
+cdc,DirectLiNGAM,BMI >= 33,`BMI` >= 33.0,edge to recording; edge to label,False,,,,False
+cdc,DirectLiNGAM,HeartDiseaseorAttack == 1,`HeartDiseaseorAttack` == 1,edge to recording; edge to label,False,,,,False
+cdc,DirectLiNGAM,HighBP == 1,`HighBP` == 1,edge to recording; edge to label,False,,,,False
+cdc,DirectLiNGAM,HighChol == 1,`HighChol` == 1,edge to recording; edge to label,False,,,,False
+cdc,DirectLiNGAM,Income <= 4,`Income` <= 4.0,edge to recording; edge to label,False,,,,False
+cdc,DirectLiNGAM,Income >= 8,`Income` >= 8.0,edge to recording; edge to label,False,,,,False
+cdc,DirectLiNGAM,PhysHlth >= 5,`PhysHlth` >= 5.0,edge to recording,True,0.9646684550337125,0.9437065051097572,0.985978636431175,True
+cdc,DirectLiNGAM,DiffWalk == 1,`DiffWalk` == 1,edge to label,False,,,,False
+cdc,DirectLiNGAM,GenHlth >= 3,`GenHlth` >= 3.0,edge to label,False,,,,False
+cdc,DirectLiNGAM,HvyAlcoholConsump == 1,`HvyAlcoholConsump` == 1,edge to label,False,,,,False
+cdc,PC-G2,Sex == 1,`Sex` == 1,protected,False,,,,False
+cdc,PC-G2,Age <= 5,`Age` <= 5.0,protected,False,,,,False
+cdc,PC-G2,Age >= 11,`Age` >= 11.0,protected,False,,,,False
+cdc,PC-G2,CholCheck == 0,`CholCheck` == 0,recording variable,True,0.3874983838466657,0.3279687154907266,0.45470911594590985,True
+cdc,PC-G2,BMI <= 23,`BMI` <= 23.0,edge to label,False,,,,False
+cdc,PC-G2,BMI >= 33,`BMI` >= 33.0,edge to label,False,,,,False
+cdc,PC-G2,GenHlth >= 3,`GenHlth` >= 3.0,edge to label,False,,,,False
+cdc,PC-G2,HighBP == 1,`HighBP` == 1,edge to label,False,,,,False
+cdc,PC-G2,HighChol == 1,`HighChol` == 1,edge to label,False,,,,False
+cdc,LiM,Sex == 1,`Sex` == 1,protected,False,,,,False
+cdc,LiM,Age <= 5,`Age` <= 5.0,protected; edge to recording,True,0.4609629540654656,0.43644644638142266,0.48649802678497694,True
+cdc,LiM,Age >= 11,`Age` >= 11.0,protected; edge to recording,True,1.1358534380623755,1.1094494758967834,1.1627271260937935,False
+cdc,LiM,CholCheck == 0,`CholCheck` == 0,recording variable,True,0.3874983838466657,0.3279687154907266,0.45470911594590985,True
+cdc,LiM,AnyHealthcare == 0,`AnyHealthcare` == 0,edge to recording; edge to label,False,,,,False
+cdc,LiM,DiffWalk == 1,`DiffWalk` == 1,edge to recording,True,1.0585538010811826,1.0353850852560396,1.0821102385104229,False
+cdc,LiM,Education <= 4,`Education` <= 4.0,edge to recording,True,0.9963642006095872,0.9756296983630436,1.0174283745975243,False
+cdc,LiM,Education >= 6,`Education` >= 6.0,edge to recording,True,0.9434075200114012,0.9200802944754851,0.9671766122393685,True
+cdc,LiM,Fruits == 0,`Fruits` == 0,edge to recording,True,1.000771875423951,0.9799656791762354,1.021908560680165,False
+cdc,LiM,HeartDiseaseorAttack == 1,`HeartDiseaseorAttack` == 1,edge to recording,True,1.181636006773071,1.148219773527895,1.215777917397885,False
+cdc,LiM,HvyAlcoholConsump == 1,`HvyAlcoholConsump` == 1,edge to recording,True,0.5732469590865276,0.5250286269395351,0.6247030404099927,True
+cdc,LiM,NoDocbcCost == 1,`NoDocbcCost` == 1,edge to recording,True,0.9877738244549933,0.9478137084085753,1.0289856987111112,False
+cdc,LiM,PhysActivity == 0,`PhysActivity` == 0,edge to recording,True,1.0086012068047314,0.9863973757700194,1.0311788064129155,False
+cdc,LiM,Stroke == 1,`Stroke` == 1,edge to recording,True,1.1017040869817198,1.05320741182247,1.1518578573962102,False
+cdc,LiM,Veggies == 0,`Veggies` == 0,edge to recording,True,1.003079606830152,0.9757634450372135,1.0309665990165717,False

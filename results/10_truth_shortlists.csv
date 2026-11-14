@@ -1,0 +1,13 @@
+list,m,groups,truly_elevated,mean_missed_ratio,ci_low,ci_high
+causal: DirectLiNGAM,3,CholCheck == 0.0; RoutineCare == 0.0; Smoker == 1.0,2,1.8335475555568086,1.5777831988890176,2.096685937979002
+"slice search (top 3, vs DirectLiNGAM)",3,GenHlth <= 2; Age <= 32; (GenHlth <= 2) & (Income >= 4.8),1,1.3963071138206773,1.1040138952925829,1.7002708769613595
+"confident learning (top 3, vs DirectLiNGAM)",3,HeartDiseaseorAttack == 1; Stroke == 1; GenHlth >= 4,0,0.486752861128444,0.39671775053310887,0.5853481175971614
+"anomaly detection (top 3, vs DirectLiNGAM)",3,Stroke == 1; HeartDiseaseorAttack == 1; RoutineCare == 0,1,1.0441452697838318,0.8779599988860091,1.2175169951189608
+causal: PC-G2,1,CholCheck == 0.0,1,2.3624338624338623,1.969699203044562,2.786743238650007
+"slice search (top 1, vs PC-G2)",1,GenHlth <= 2,1,1.6462023780635768,1.3557319405745174,1.927289087115189
+"confident learning (top 1, vs PC-G2)",1,HeartDiseaseorAttack == 1,0,0.48575498575498577,0.32341818349814333,0.6579747222706219
+"anomaly detection (top 1, vs PC-G2)",1,Stroke == 1,0,0.3705978705978706,0.19571843197509292,0.5510977737038716
+causal: LiM,1,CholCheck == 0.0,1,2.3624338624338623,1.969699203044562,2.786743238650007
+"slice search (top 1, vs LiM)",1,GenHlth <= 2,1,1.6462023780635768,1.3557319405745174,1.927289087115189
+"confident learning (top 1, vs LiM)",1,HeartDiseaseorAttack == 1,0,0.48575498575498577,0.32341818349814333,0.6579747222706219
+"anomaly detection (top 1, vs LiM)",1,Stroke == 1,0,0.3705978705978706,0.19571843197509292,0.5510977737038716

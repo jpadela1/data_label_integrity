@@ -1,0 +1,307 @@
+method,rank,group
+protected only,1,Sex == 1
+protected only,2,Age <= 5
+protected only,3,Age >= 11
+slice search,1,BMI <= 23 & Age <= 5
+slice search,2,BMI <= 23 & Income >= 8
+slice search,3,BMI <= 23 & Education >= 6
+slice search,4,BMI <= 23
+slice search,5,BMI <= 23 & Smoker == 1
+slice search,6,BMI <= 23 & Age >= 11
+slice search,7,BMI <= 23 & GenHlth >= 3
+slice search,8,BMI <= 23 & Fruits == 0
+slice search,9,Age <= 5 & Income >= 8
+slice search,10,BMI <= 23 & Sex == 1
+slice search,11,BMI <= 23 & MentHlth >= 3
+slice search,12,HighBP == 1 & BMI <= 23
+slice search,13,BMI <= 23 & PhysActivity == 0
+slice search,14,HighChol == 1 & BMI <= 23
+slice search,15,BMI <= 23 & Veggies == 0
+slice search,16,BMI <= 23 & Education <= 4
+slice search,17,BMI <= 23 & PhysHlth >= 5
+slice search,18,BMI <= 23 & Income <= 4
+slice search,19,Age <= 5 & Education >= 6
+slice search,20,HvyAlcoholConsump == 1
+slice search,21,Smoker == 1 & HvyAlcoholConsump == 1
+slice search,22,CholCheck == 0
+slice search,23,Sex == 1 & Age <= 5
+slice search,24,Age <= 5
+slice search,25,Veggies == 0 & Age <= 5
+slice search,26,Smoker == 1 & Age <= 5
+slice search,27,Age <= 5 & Education <= 4
+slice search,28,Fruits == 0 & Age <= 5
+slice search,29,Income >= 8
+slice search,30,Education >= 6 & Income >= 8
+slice search,31,GenHlth >= 3 & Age <= 5
+slice search,32,Education <= 4 & Income >= 8
+slice search,33,Fruits == 0 & Income >= 8
+slice search,34,PhysActivity == 0 & Age <= 5
+slice search,35,Sex == 1 & Income >= 8
+slice search,36,Veggies == 0 & Income >= 8
+slice search,37,Smoker == 1 & Income >= 8
+slice search,38,Age >= 11 & Income >= 8
+slice search,39,MentHlth >= 3 & Age <= 5
+slice search,40,Age <= 5 & Income <= 4
+slice search,41,BMI >= 33 & Age <= 5
+slice search,42,Education >= 6
+slice search,43,MentHlth >= 3 & Income >= 8
+slice search,44,HighChol == 1 & Income >= 8
+slice search,45,HighChol == 1 & Age <= 5
+slice search,46,HighBP == 1 & Income >= 8
+slice search,47,HighBP == 1 & Age <= 5
+slice search,48,Sex == 1 & Education >= 6
+slice search,49,Age >= 11 & Education >= 6
+slice search,50,PhysHlth >= 5 & Age <= 5
+slice search,51,GenHlth >= 3 & Income >= 8
+slice search,52,Smoker == 1 & Education >= 6
+slice search,53,Fruits == 0 & Education >= 6
+slice search,54,PhysActivity == 0 & Income >= 8
+slice search,55,AnyHealthcare == 0
+slice search,56,Veggies == 0 & Education >= 6
+slice search,57,HighChol == 1 & Education >= 6
+slice search,58,PhysHlth >= 5 & Income >= 8
+slice search,59,HighBP == 1 & Education >= 6
+slice search,60,MentHlth >= 3 & Education >= 6
+slice search,61,Sex == 1
+slice search,62,Age >= 11
+slice search,63,GenHlth >= 3 & Education >= 6
+slice search,64,Sex == 1 & Age >= 11
+slice search,65,Fruits == 0 & Sex == 1
+slice search,66,Smoker == 1 & Age >= 11
+slice search,67,Smoker == 1 & Sex == 1
+slice search,68,BMI >= 33 & Income >= 8
+slice search,69,Smoker == 1
+slice search,70,PhysActivity == 0 & Education >= 6
+slice search,71,Veggies == 0 & Sex == 1
+slice search,72,Fruits == 0
+slice search,73,Sex == 1 & Education <= 4
+slice search,74,Veggies == 0 & Age >= 11
+slice search,75,Smoker == 1 & Fruits == 0
+slice search,76,Veggies == 0
+slice search,77,Smoker == 1 & NoDocbcCost == 1
+slice search,78,Age >= 11 & Education <= 4
+slice search,79,Fruits == 0 & Age >= 11
+slice search,80,Smoker == 1 & Veggies == 0
+slice search,81,Fruits == 0 & Veggies == 0
+slice search,82,NoDocbcCost == 1
+slice search,83,Smoker == 1 & Education <= 4
+slice search,84,PhysHlth >= 5 & Education >= 6
+slice search,85,Education <= 4
+slice search,86,Fruits == 0 & Education <= 4
+slice search,87,Veggies == 0 & Education <= 4
+slice search,88,HighBP == 1 & Age >= 11
+slice search,89,Education >= 6 & Income <= 4
+slice search,90,NoDocbcCost == 1 & Sex == 1
+slice search,91,Smoker == 1 & MentHlth >= 3
+slice search,92,NoDocbcCost == 1 & Education <= 4
+slice search,93,HighChol == 1 & Age >= 11
+slice search,94,Fruits == 0 & NoDocbcCost == 1
+slice search,95,NoDocbcCost == 1 & MentHlth >= 3
+slice search,96,MentHlth >= 3
+slice search,97,MentHlth >= 3 & Sex == 1
+slice search,98,HighChol == 1 & Sex == 1
+slice search,99,PhysActivity == 0 & Sex == 1
+slice search,100,PhysActivity == 0 & Veggies == 0
+slice search,101,Veggies == 0 & MentHlth >= 3
+slice search,102,PhysActivity == 0 & Age >= 11
+slice search,103,GenHlth >= 3 & Age >= 11
+slice search,104,NoDocbcCost == 1 & GenHlth >= 3
+slice search,105,Age >= 11 & Income <= 4
+slice search,106,MentHlth >= 3 & Age >= 11
+slice search,107,Fruits == 0 & MentHlth >= 3
+slice search,108,Smoker == 1 & PhysActivity == 0
+slice search,109,PhysActivity == 0 & Fruits == 0
+slice search,110,PhysActivity == 0 & Education <= 4
+slice search,111,Veggies == 0 & GenHlth >= 3
+slice search,112,NoDocbcCost == 1 & Income <= 4
+slice search,113,MentHlth >= 3 & Education <= 4
+slice search,114,HighBP == 1 & Sex == 1
+slice search,115,GenHlth >= 3 & Sex == 1
+slice search,116,BMI >= 33 & Education >= 6
+slice search,117,HighChol == 1 & Veggies == 0
+slice search,118,PhysActivity == 0
+slice search,119,HighChol == 1 & Fruits == 0
+slice search,120,Fruits == 0 & GenHlth >= 3
+slice search,121,Sex == 1 & Income <= 4
+slice search,122,Veggies == 0 & Income <= 4
+slice search,123,HighChol == 1 & Smoker == 1
+slice search,124,Smoker == 1 & GenHlth >= 3
+slice search,125,HighBP == 1 & Veggies == 0
+slice search,126,DiffWalk == 1 & Education >= 6
+slice search,127,GenHlth >= 3 & MentHlth >= 3
+slice search,128,Smoker == 1 & Income <= 4
+slice search,129,NoDocbcCost == 1 & PhysHlth >= 5
+slice search,130,PhysHlth >= 5 & Age >= 11
+slice search,131,GenHlth >= 3 & Education <= 4
+slice search,132,PhysActivity == 0 & MentHlth >= 3
+slice search,133,Fruits == 0 & Income <= 4
+slice search,134,HighBP == 1 & Smoker == 1
+slice search,135,Education <= 4 & Income <= 4
+slice search,136,HighBP == 1 & Fruits == 0
+slice search,137,HighChol == 1 & NoDocbcCost == 1
+slice search,138,Veggies == 0 & PhysHlth >= 5
+slice search,139,Smoker == 1 & PhysHlth >= 5
+slice search,140,HighBP == 1 & NoDocbcCost == 1
+slice search,141,HighChol == 1 & Education <= 4
+slice search,142,HeartDiseaseorAttack == 1 & Age >= 11
+slice search,143,MentHlth >= 3 & Income <= 4
+slice search,144,Income <= 4
+slice search,145,PhysHlth >= 5 & Sex == 1
+slice search,146,DiffWalk == 1 & Age >= 11
+slice search,147,HighChol == 1 & MentHlth >= 3
+slice search,148,MentHlth >= 3 & PhysHlth >= 5
+slice search,149,HighBP == 1 & Education <= 4
+slice search,150,Fruits == 0 & PhysHlth >= 5
+slice search,151,PhysHlth >= 5 & Education <= 4
+slice search,152,PhysActivity == 0 & GenHlth >= 3
+slice search,153,PhysActivity == 0 & Income <= 4
+slice search,154,Stroke == 1
+slice search,155,HighBP == 1 & MentHlth >= 3
+slice search,156,HeartDiseaseorAttack == 1 & Sex == 1
+slice search,157,PhysHlth >= 5
+slice search,158,Veggies == 0 & DiffWalk == 1
+slice search,159,HighChol == 1 & PhysActivity == 0
+slice search,160,PhysActivity == 0 & PhysHlth >= 5
+slice search,161,Smoker == 1 & DiffWalk == 1
+slice search,162,Smoker == 1 & HeartDiseaseorAttack == 1
+slice search,163,HighBP == 1 & PhysActivity == 0
+slice search,164,MentHlth >= 3 & DiffWalk == 1
+slice search,165,BMI >= 33 & Sex == 1
+slice search,166,HeartDiseaseorAttack == 1 & Education <= 4
+slice search,167,HighChol == 1
+slice search,168,GenHlth >= 3 & Income <= 4
+slice search,169,DiffWalk == 1 & Education <= 4
+slice search,170,BMI >= 33 & Fruits == 0
+slice search,171,Fruits == 0 & DiffWalk == 1
+slice search,172,BMI >= 33 & Veggies == 0
+slice search,173,PhysHlth >= 5 & Income <= 4
+slice search,174,GenHlth >= 3 & PhysHlth >= 5
+slice search,175,HeartDiseaseorAttack == 1
+slice search,176,DiffWalk == 1 & Sex == 1
+slice search,177,HeartDiseaseorAttack == 1 & Fruits == 0
+slice search,178,Stroke == 1 & GenHlth >= 3
+slice search,179,PhysActivity == 0 & DiffWalk == 1
+slice search,180,BMI >= 33 & Smoker == 1
+slice search,181,BMI >= 33 & MentHlth >= 3
+slice search,182,HighChol == 1 & Income <= 4
+slice search,183,BMI >= 33 & Education <= 4
+slice search,184,HighChol == 1 & HeartDiseaseorAttack == 1
+slice search,185,DiffWalk == 1 & Income <= 4
+slice search,186,HighBP == 1 & Income <= 4
+slice search,187,HeartDiseaseorAttack == 1 & PhysActivity == 0
+slice search,188,PhysHlth >= 5 & DiffWalk == 1
+slice search,189,HighChol == 1 & PhysHlth >= 5
+slice search,190,DiffWalk == 1
+slice search,191,HeartDiseaseorAttack == 1 & Income <= 4
+slice search,192,BMI >= 33 & PhysActivity == 0
+slice search,193,HighBP == 1 & HeartDiseaseorAttack == 1
+slice search,194,HeartDiseaseorAttack == 1 & GenHlth >= 3
+slice search,195,BMI >= 33 & Age >= 11
+slice search,196,HighBP == 1 & PhysHlth >= 5
+slice search,197,BMI >= 33
+slice search,198,HeartDiseaseorAttack == 1 & PhysHlth >= 5
+slice search,199,GenHlth >= 3 & DiffWalk == 1
+slice search,200,HighBP == 1 & HighChol == 1
+slice search,201,HighBP == 1
+slice search,202,BMI >= 33 & Income <= 4
+slice search,203,HighChol == 1 & GenHlth >= 3
+slice search,204,HeartDiseaseorAttack == 1 & DiffWalk == 1
+slice search,205,HighChol == 1 & DiffWalk == 1
+slice search,206,GenHlth >= 3
+slice search,207,BMI >= 33 & PhysHlth >= 5
+slice search,208,HighBP == 1 & DiffWalk == 1
+slice search,209,BMI >= 33 & GenHlth >= 3
+slice search,210,BMI >= 33 & DiffWalk == 1
+slice search,211,HighChol == 1 & BMI >= 33
+slice search,212,HighBP == 1 & BMI >= 33
+slice search,213,HighBP == 1 & GenHlth >= 3
+clustering,1,cluster 5
+clustering,2,cluster 10
+clustering,3,cluster 12
+clustering,4,cluster 18
+clustering,5,cluster 6
+clustering,6,cluster 2
+clustering,7,cluster 11
+clustering,8,cluster 1
+clustering,9,cluster 17
+clustering,10,cluster 15
+clustering,11,cluster 13
+clustering,12,cluster 3
+clustering,13,cluster 4
+clustering,14,cluster 19
+clustering,15,cluster 9
+confident learning,1,HeartDiseaseorAttack == 1
+confident learning,2,Stroke == 1
+confident learning,3,DiffWalk == 1
+confident learning,4,BMI >= 33
+confident learning,5,PhysHlth >= 5
+confident learning,6,Income <= 4
+confident learning,7,HighBP == 1
+confident learning,8,HighChol == 1
+confident learning,9,GenHlth >= 3
+confident learning,10,PhysActivity == 0
+confident learning,11,NoDocbcCost == 1
+confident learning,12,Education <= 4
+confident learning,13,Age >= 11
+confident learning,14,Veggies == 0
+confident learning,15,MentHlth >= 3
+confident learning,16,Smoker == 1
+confident learning,17,Fruits == 0
+confident learning,18,Sex == 1
+confident learning,19,AnyHealthcare == 0
+confident learning,20,Education >= 6
+confident learning,21,HvyAlcoholConsump == 1
+confident learning,22,Income >= 8
+confident learning,23,BMI <= 23
+confident learning,24,Age <= 5
+confident learning,25,CholCheck == 0
+KNN disagreement,1,HeartDiseaseorAttack == 1
+KNN disagreement,2,Stroke == 1
+KNN disagreement,3,DiffWalk == 1
+KNN disagreement,4,BMI >= 33
+KNN disagreement,5,HighBP == 1
+KNN disagreement,6,PhysHlth >= 5
+KNN disagreement,7,GenHlth >= 3
+KNN disagreement,8,Income <= 4
+KNN disagreement,9,HighChol == 1
+KNN disagreement,10,Age >= 11
+KNN disagreement,11,PhysActivity == 0
+KNN disagreement,12,Education <= 4
+KNN disagreement,13,Veggies == 0
+KNN disagreement,14,NoDocbcCost == 1
+KNN disagreement,15,MentHlth >= 3
+KNN disagreement,16,Smoker == 1
+KNN disagreement,17,Fruits == 0
+KNN disagreement,18,Sex == 1
+KNN disagreement,19,AnyHealthcare == 0
+KNN disagreement,20,Education >= 6
+KNN disagreement,21,Income >= 8
+KNN disagreement,22,HvyAlcoholConsump == 1
+KNN disagreement,23,BMI <= 23
+KNN disagreement,24,Age <= 5
+KNN disagreement,25,CholCheck == 0
+anomaly detection,1,Stroke == 1
+anomaly detection,2,NoDocbcCost == 1
+anomaly detection,3,AnyHealthcare == 0
+anomaly detection,4,HeartDiseaseorAttack == 1
+anomaly detection,5,DiffWalk == 1
+anomaly detection,6,PhysHlth >= 5
+anomaly detection,7,MentHlth >= 3
+anomaly detection,8,Income <= 4
+anomaly detection,9,CholCheck == 0
+anomaly detection,10,Veggies == 0
+anomaly detection,11,PhysActivity == 0
+anomaly detection,12,HvyAlcoholConsump == 1
+anomaly detection,13,Education <= 4
+anomaly detection,14,GenHlth >= 3
+anomaly detection,15,BMI >= 33
+anomaly detection,16,Fruits == 0
+anomaly detection,17,HighBP == 1
+anomaly detection,18,Smoker == 1
+anomaly detection,19,HighChol == 1
+anomaly detection,20,Sex == 1
+anomaly detection,21,Age <= 5
+anomaly detection,22,BMI <= 23
+anomaly detection,23,Age >= 11
+anomaly detection,24,Education >= 6
+anomaly detection,25,Income >= 8

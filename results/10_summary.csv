@@ -1,0 +1,7 @@
+dataset,algorithm,candidates,valid_for_check,flagged,truly_elevated,mean_missed_ratio
+nhanes,DirectLiNGAM,22,6,"CholCheck == 0, RoutineCare == 0, Smoker == 1",2 of 3,1.83
+nhanes,PC-G2,20,4,CholCheck == 0,1 of 1,2.36
+nhanes,LiM,10,2,CholCheck == 0,1 of 1,2.36
+cdc,DirectLiNGAM,16,3,"CholCheck == 0, AnyHealthcare == 0, PhysHlth >= 5",,
+cdc,PC-G2,14,2,"CholCheck == 0, AnyHealthcare == 0",,
+cdc,LiM,16,13,"Age <= 5, CholCheck == 0, Education >= 6, HvyAlcoholConsump == 1",,

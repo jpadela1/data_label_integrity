@@ -1,0 +1,7 @@
+method,m,groups,share_truly_elevated,mean_missed_ratio,share_ci,ratio_ci,causal_minus_this_ratio_ci,share_boot_causal_higher
+causal (proposed): O/E flags,3,CholCheck == 0; RoutineCare == 0; Smoker == 1,0.6666666666666666,1.8335475555568086,0.67-0.67,1.59-2.10,,
+slice search,3,GenHlth <= 2; Age <= 32; GenHlth <= 2 & Income >= 4.8,0.3333333333333333,1.3963071138206773,0.33-0.67,1.10-1.69,0.09 to 0.84,0.992
+confident learning,3,HeartDiseaseorAttack == 1; Stroke == 1; GenHlth >= 4,0.0,0.486752861128444,0.00-0.00,0.39-0.58,1.09 to 1.63,1.0
+KNN disagreement,3,HeartDiseaseorAttack == 1; Stroke == 1; GenHlth >= 4,0.0,0.486752861128444,0.00-0.00,0.39-0.58,1.09 to 1.63,1.0
+anomaly detection,3,Stroke == 1; HeartDiseaseorAttack == 1; RoutineCare == 0,0.3333333333333333,1.0441452697838318,0.33-0.33,0.88-1.23,0.63 to 0.97,1.0
+random (mean of 200),3,-,0.2383333333333335,1.167753123867991,,,,

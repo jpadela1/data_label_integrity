@@ -1,0 +1,17 @@
+method,group,query,why,share_train,pos_rate_train
+causal (proposed),Sex == 1,`Sex` == 1,protected; edge to label,0.44136313465783666,0.1517289629199601
+causal (proposed),Age <= 5,`Age` <= 5.0,protected; edge to recording; edge to label,0.21542231682960158,0.04031839946323462
+causal (proposed),Age >= 11,`Age` >= 11.0,protected; edge to recording; edge to label,0.22393041101650374,0.2061671165356179
+causal (proposed),CholCheck == 0,`CholCheck` == 0,recording variable,0.03711368653421634,0.026553372278279343
+causal (proposed),AnyHealthcare == 0,`AnyHealthcare` == 0,edge to recording,0.04944549563754862,0.1167951102843476
+causal (proposed),BMI <= 23,`BMI` <= 23.0,edge to recording; edge to label,0.2062637969094923,0.04905239687848383
+causal (proposed),BMI >= 33,`BMI` >= 33.0,edge to recording; edge to label,0.20056107431935247,0.2791627084220526
+causal (proposed),HeartDiseaseorAttack == 1,`HeartDiseaseorAttack` == 1,edge to recording; edge to label,0.09343792704719857,0.3330052032063001
+causal (proposed),HighBP == 1,`HighBP` == 1,edge to recording; edge to label,0.42835461999369284,0.24511112133621682
+causal (proposed),HighChol == 1,`HighChol` == 1,edge to recording; edge to label,0.42436008619783455,0.22016999272344445
+causal (proposed),Income <= 4,`Income` <= 4.0,edge to recording; edge to label,0.2271037001997267,0.229264905835045
+causal (proposed),Income >= 8,`Income` >= 8.0,edge to recording; edge to label,0.3567223799011878,0.0791402681597171
+causal (proposed),PhysHlth >= 5,`PhysHlth` >= 5.0,edge to recording,0.21430542415641754,0.24672736748520802
+causal (proposed),DiffWalk == 1,`DiffWalk` == 1,edge to label,0.16878219278881532,0.30875827170105097
+causal (proposed),GenHlth >= 3,`GenHlth` >= 3.0,edge to label,0.47003442657416167,0.23397117817256755
+causal (proposed),HvyAlcoholConsump == 1,`HvyAlcoholConsump` == 1,edge to label,0.055798643960895615,0.06122689273519369
